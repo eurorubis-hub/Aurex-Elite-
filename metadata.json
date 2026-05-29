@@ -1,0 +1,6 @@
+{
+  "name": "Aurex Elite",
+  "description": "A modern, premium, and luxurious e-commerce mobile experience for high-end watches, apparel, and sunglasses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

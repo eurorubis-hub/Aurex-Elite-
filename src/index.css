@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .text-gold {
+    color: #dfba6b;
+  }
+  
+  .bg-gold {
+    background-color: #dfba6b;
+  }
+  
+  .border-gold {
+    border-color: #dfba6b;
+  }
+  
+  .text-gradient-gold {
+    background: linear-gradient(135deg, #f3e7c4 0%, #dfba6b 50%, #c49a45 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .bg-gradient-gold {
+    background: linear-gradient(135deg, #f3e7c4 0%, #dfba6b 50%, #c49a45 100%);
+  }
+
+  .bg-gradient-dark-gold {
+    background: linear-gradient(135deg, #1f1a10 0%, #0d0c08 100%);
+  }
+
+  .text-gradient-white {
+    background: linear-gradient(180deg, #ffffff 0%, #cccccc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .shadow-gold-sm {
+    box-shadow: 0 2px 8px -2px rgba(223, 186, 107, 0.2);
+  }
+
+  .shadow-gold-lg {
+    box-shadow: 0 10px 30px -10px rgba(223, 186, 107, 0.4);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #c49a45;
+  border-radius: 2px;
+}
+
+/* Custom input autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #121212 inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
